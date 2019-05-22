@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dontfollowsean
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.seanewilkinson.com
+  * I am dontfollowsean (https://keybase.io/dontfollowsean) on keybase.
+  * I have a public key ASC5t90GYoFB6fzqVeFenLftRlNkLh30wkOrIq8e0L5aeQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b9b7dd06628141e9fcea55e15e9cb7ed4653642e1df4c243ab22af1ed0be5a790a",
+      "host": "keybase.io",
+      "kid": "0120b9b7dd06628141e9fcea55e15e9cb7ed4653642e1df4c243ab22af1ed0be5a790a",
+      "uid": "b7f352aa44221b4b9b56d1813c8da719",
+      "username": "dontfollowsean"
+    },
+    "merkle_root": {
+      "ctime": 1558557813,
+      "hash": "c9eef997e457459b065a9f112bc63ba1a110b36d6ddefedd43bb1535c515300bcbad297055d98c5f0a0065410c8a882da50b96e2c6768b8208359d27f5975337",
+      "hash_meta": "8d00377109e3cad98bd7c53d0134c06833c0b090615d6f85df0f5da73b4ce0a1",
+      "seqno": 5428882
+    },
+    "service": {
+      "entropy": "4xg03LIjJB1tBBibfDScY+hI",
+      "hostname": "www.seanewilkinson.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1558557870,
+  "expire_in": 504576000,
+  "prev": "2eb181e5677bb72125f9dc6d364be069dfbf1a2ff69f417565b45d4ccc65f214",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgubfdBmKBQen86lXhXpy37UZTZC4d9MJDqyKvHtC+WnkKp3BheWxvYWTESpcCBcQgLrGB5Wd7tyEl+dxtNkvgad+/Gi/2n0F1ZbRdTMxl8hTEILWaWmYQfQOZOHOqLL0cwlm91iX7ZOcjiiE85sUs36V+AgHCo3NpZ8RAo8OmTn4P+kBQm5EpCRgl8/9zFFIrgflHYb5wKvBASUUUqRwKlDY1OMP3WOldzkf9ZFINPO9ZDzjlR8F2gDdfDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAX8Jci3zDb1Vsb1a9KgKKygRlRZl4BoxbGoupP8PnSro3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dontfollowsean
+
+==================================================================
