@@ -6,6 +6,27 @@
   }
 }
 
+@media (max-width: 992px) {
+  #sideNav {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    .navbar-brand {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: baseline;
+      .brand-space {
+        margin: 0 1rem 0 0;
+      }
+      .img-profile {
+        max-width: 4rem;
+        max-height: 4rem;
+        border: 0.1rem solid fade-out($white, 0.8);
+      }
+    }
+  }
+}
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;

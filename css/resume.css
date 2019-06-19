@@ -1,6 +1,6 @@
 /*!
  * Sean Wilkinson v1.0 (https://www.seanewilkinson.com)
- * Copyright 2014-2018 swilkinson09@gmail.com
+ * Copyright 2014-2019 swilkinson09@gmail.com
  */
 body {
   font-family: 'Open Sans', serif;
@@ -51,6 +51,22 @@ h2 {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase; }
+
+@media (max-width: 992px) {
+  #sideNav {
+    text-align: left;
+    display: flex;
+    flex-direction: row; }
+    #sideNav .navbar-brand {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: baseline; }
+      #sideNav .navbar-brand .brand-space {
+        margin: 0 1rem 0 0; }
+      #sideNav .navbar-brand .img-profile {
+        max-width: 4rem;
+        max-height: 4rem;
+        border: 0.1rem solid rgba(255, 255, 255, 0.2); } }
 
 @media (min-width: 992px) {
   #sideNav {
