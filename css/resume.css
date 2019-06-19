@@ -64,8 +64,8 @@ h2 {
       #sideNav .navbar-brand .brand-space {
         margin: 0 1rem 0 0; }
       #sideNav .navbar-brand .img-profile {
-        max-width: 4rem;
-        max-height: 4rem;
+        max-width: 2.5rem;
+        max-height: 2.5rem;
         border: 0.1rem solid rgba(255, 255, 255, 0.2); } }
 
 @media (min-width: 992px) {
