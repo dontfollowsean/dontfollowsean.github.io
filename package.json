@@ -3,6 +3,9 @@
   "name": "seanwilkinson-resume",
   "version": "1.0.0",
   "description": "Resume of Sean Wilkinson",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer 8000"
+  },
   "keywords": [
     "Sean Wilkinson",
     "javascript",
