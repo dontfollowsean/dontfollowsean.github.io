@@ -1,0 +1,45 @@
+{
+	"title" : "Experience",
+	"experience" : [
+		{
+			"timeperiod" : "July 2020 - Present",
+			"company" : "Amazon Web Services (AWS)",
+			"position" : "Software Development Engineer",
+			"website": "https://aws.amazon.com",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		},
+		{
+			"timeperiod" : "March 2015 - Present",
+			"company" : "SmartTerm",
+			"position" : "Co-Founder",
+			"website": "https://smartterm.io",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		},
+		{
+			"timeperiod" : "September 2018 - July 2020",
+			"company" : "BounceX",
+			"position" : "Software Engineer",
+			"website": "https://www.bouncex.com",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		},
+		{
+			"timeperiod" : "January 2014 - August 2018",
+			"company" : "InfotechSoft, Inc.",
+			"position" : "Software Engineer",
+			"website": "http://www.infotechsoft.com/",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		},
+		{
+			"timeperiod" : "June 2012 - November 2012",
+			"company" : "BGT Partners",
+			"position" : "Web Application Development Intern",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		},
+		{
+			"timeperiod" : "August 2009 - December 2013",
+			"company" : "University of Miami",
+			"position" : "Computer Engineering & Computer Science",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		}
+	]
+}
