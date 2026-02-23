@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sean Wilkinson &mdash; Software Engineer</title>
-  <meta name="description" content="Sean Wilkinson &mdash; Software Engineer with experience at AWS, BounceX, and InfotechSoft.">
+  <meta name="description" content="Sean Wilkinson &mdash; Senior Software Engineer with experience at Atlassian, AWS, and Wunderkind.">
   <meta name="author" content="Sean Wilkinson">
   <meta name="theme-color" content="#0d0d14">
 
-  <meta property="og:title" content="Sean Wilkinson &mdash; Software Engineer">
-  <meta property="og:description" content="Software engineer with experience in backend systems, distributed infrastructure, and cloud.">
+  <meta property="og:title" content="Sean Wilkinson &mdash; Senior Software Engineer">
+  <meta property="og:description" content="Senior software engineer specializing in backend systems, security infrastructure, and distributed platforms.">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Sean Wilkinson &mdash; Software Engineer">
@@ -296,50 +296,6 @@
       line-height: 1.7;
     }
 
-    /* ── SKILLS ── */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1rem;
-    }
-
-    .skill-group {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.2rem 1.4rem;
-      transition: border-color 0.2s, box-shadow 0.2s;
-    }
-
-    .skill-group:hover {
-      border-color: var(--accent-dim);
-      box-shadow: 0 0 16px var(--accent-glow);
-    }
-
-    .skill-group-title {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.7rem;
-      color: var(--accent);
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 0.8rem;
-    }
-
-    .skill-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-    }
-
-    .skill-tag {
-      font-size: 0.78rem;
-      color: var(--muted);
-      background: var(--bg-hover);
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      padding: 0.2rem 0.55rem;
-    }
-
     /* ── CONTACT ── */
     #contact {
       text-align: center;
@@ -416,7 +372,7 @@
     <a class="nav-logo" href="#">sw.</a>
     <ul class="nav-links">
       <li><a href="#experience">Experience</a></li>
-      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -425,12 +381,11 @@
   <section id="hero">
     <p class="hero-greeting">// hello, world</p>
     <h1 class="hero-name">Sean Wilkinson</h1>
-    <p class="hero-title">Software Engineer &mdash; <span>Backend &amp; Distributed Systems</span></p>
+    <p class="hero-title">Software Engineer &mdash; <span style="white-space:nowrap">Backend Systems &amp; Distributed Platforms</span></p>
     <p class="hero-bio">
-      I build reliable, scalable backend systems. Currently a Software Development Engineer at
-      <strong style="color:var(--text)">Amazon Web Services</strong>, and co-founder of
-      <strong style="color:var(--text)">SmartTerm</strong>. Over a decade of experience shipping
-      production software across cloud infrastructure, APIs, and distributed platforms.
+      I build reliable, scalable backend systems. Currently a Senior Software Engineer at
+      <a href="https://atlassian.com" target="_blank" rel="noopener noreferrer" style="color:var(--text);text-decoration:none;border-bottom:1px solid var(--border);transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">Atlassian</a>, building backend services and distributed platforms. Co-founder of <a href="https://smartterm.io" target="_blank" rel="noopener noreferrer" style="color:var(--text);text-decoration:none;border-bottom:1px solid var(--border);transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">SmartTerm</a>.
+      10+ years shipping production software across security, cloud, and distributed platforms.
     </p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="#contact">Get in touch</a>
@@ -467,55 +422,46 @@
     <div class="timeline">
 
       <div class="tl-item">
-        <div class="tl-date">Jul 2020<br>Present</div>
+        <div class="tl-date">Aug 2021<br>Present</div>
         <div class="tl-body">
-          <p class="tl-company">Amazon Web Services (AWS)</p>
-          <p class="tl-role">Software Development Engineer</p>
-          <p class="tl-desc">Building and operating distributed systems and cloud services at scale. Working on backend infrastructure serving millions of customers worldwide.</p>
+          <p class="tl-company">Atlassian</p>
+          <p class="tl-role">Senior Software Engineer &mdash; New York, NY</p>
+          <p class="tl-desc">Designed and implemented a Vulnerability Disclosure Portal enabling customers to view public vulnerabilities affecting their products, accessible via web app and API. Introduced a layered caching strategy that reduced p99 API latency by 41%. Built a vulnerability reporting pipeline that automatically detects vulnerabilities and creates Jira issues for remediation tracking across all Atlassian products and services. Created scanner services for docker containers, APIs, and repositories. Established operational standards for monitoring and alerting across critical security services.</p>
         </div>
       </div>
 
       <div class="tl-item">
-        <div class="tl-date">Mar 2015<br>Present</div>
+        <div class="tl-date">Jul 2020<br>Jul 2021</div>
         <div class="tl-body">
-          <p class="tl-company">SmartTerm</p>
-          <p class="tl-role">Co-Founder</p>
-          <p class="tl-desc">Co-founded and built a developer tooling product from the ground up, handling everything from architecture and backend engineering to product decisions.</p>
+          <p class="tl-company">Amazon Web Services (AWS)</p>
+          <p class="tl-role">Software Development Engineer II &mdash; New York, NY</p>
+          <p class="tl-desc">Launched Amazon AppIntegrations, a new AWS service enabling clients to configure connections to external applications. Designed and implemented the dataplane processing third-party events within Amazon Connect. Built synchronous on-demand data flow functionality for Amazon AppFlow and led operational work including deployments, observability, alarms, and dashboards.</p>
         </div>
       </div>
 
       <div class="tl-item">
         <div class="tl-date">Sep 2018<br>Jul 2020</div>
         <div class="tl-body">
-          <p class="tl-company">BounceX (Wunderkind)</p>
-          <p class="tl-role">Software Engineer</p>
-          <p class="tl-desc">Built high-throughput backend services for a behavioral marketing platform processing billions of real-time events for enterprise clients.</p>
+          <p class="tl-company">Wunderkind (formerly BounceX)</p>
+          <p class="tl-role">Software Engineer &mdash; New York, NY</p>
+          <p class="tl-desc">Improved identity resolution rates by 34% using probabilistic and deterministic device identifiers. Developed a pixel-based alternative to JavaScript tag tracking for anonymous traffic identification. Built backend services powering a statistics dashboard for marketing campaign performance, and implemented API routes for email campaign creation and management.</p>
         </div>
       </div>
 
       <div class="tl-item">
         <div class="tl-date">Jan 2014<br>Aug 2018</div>
         <div class="tl-body">
-          <p class="tl-company">InfotechSoft, Inc.</p>
-          <p class="tl-role">Software Engineer</p>
-          <p class="tl-desc">Developed backend APIs and data pipelines supporting enterprise clients across multiple verticals.</p>
+          <p class="tl-company">Infotech Soft</p>
+          <p class="tl-role">Software Engineer &mdash; Miami, FL</p>
+          <p class="tl-desc">Built RESTful services for the ASMOV ontology alignment tool, including property normalization on import and alignment APIs. Implemented a graphical function expression builder for ETL data transformations and designed a UI for exploring and editing large ontologies.</p>
         </div>
       </div>
 
       <div class="tl-item">
-        <div class="tl-date">Jun 2012<br>Nov 2012</div>
-        <div class="tl-body">
-          <p class="tl-company">BGT Partners</p>
-          <p class="tl-role">Web Application Development Intern</p>
-          <p class="tl-desc">Developed and maintained web application features during a summer internship.</p>
-        </div>
-      </div>
-
-      <div class="tl-item">
-        <div class="tl-date">Aug 2009<br>Dec 2013</div>
+        <div class="tl-date">Dec 2013</div>
         <div class="tl-body">
           <p class="tl-company">University of Miami</p>
-          <p class="tl-role">B.S. Computer Engineering &amp; Computer Science</p>
+          <p class="tl-role">B.S. Computer Engineering &amp; Computer Science &mdash; Coral Gables, FL</p>
           <p class="tl-desc">Double major in Computer Engineering and Computer Science.</p>
         </div>
       </div>
@@ -525,74 +471,18 @@
 
   <hr class="section-divider">
 
-  <!-- SKILLS -->
-  <section id="skills">
+  <!-- PROJECTS -->
+  <section id="projects">
     <p class="section-label">// 02</p>
-    <h2>Skills</h2>
-    <div class="skills-grid">
+    <h2>Projects</h2>
+    <div class="timeline">
 
-      <div class="skill-group">
-        <p class="skill-group-title">Languages</p>
-        <div class="skill-tags">
-          <span class="skill-tag">Go</span>
-          <span class="skill-tag">Python</span>
-          <span class="skill-tag">TypeScript</span>
-          <span class="skill-tag">Java</span>
-          <span class="skill-tag">SQL</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-group-title">Cloud &amp; Infra</p>
-        <div class="skill-tags">
-          <span class="skill-tag">AWS</span>
-          <span class="skill-tag">Lambda</span>
-          <span class="skill-tag">DynamoDB</span>
-          <span class="skill-tag">S3</span>
-          <span class="skill-tag">SQS/SNS</span>
-          <span class="skill-tag">EC2</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-group-title">Distributed Systems</p>
-        <div class="skill-tags">
-          <span class="skill-tag">Microservices</span>
-          <span class="skill-tag">Event-driven</span>
-          <span class="skill-tag">Kafka</span>
-          <span class="skill-tag">gRPC</span>
-          <span class="skill-tag">REST</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-group-title">Databases</p>
-        <div class="skill-tags">
-          <span class="skill-tag">PostgreSQL</span>
-          <span class="skill-tag">DynamoDB</span>
-          <span class="skill-tag">Redis</span>
-          <span class="skill-tag">MySQL</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-group-title">Tooling</p>
-        <div class="skill-tags">
-          <span class="skill-tag">Docker</span>
-          <span class="skill-tag">Terraform</span>
-          <span class="skill-tag">CI/CD</span>
-          <span class="skill-tag">Git</span>
-          <span class="skill-tag">Linux</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-group-title">Practices</p>
-        <div class="skill-tags">
-          <span class="skill-tag">System Design</span>
-          <span class="skill-tag">Code Review</span>
-          <span class="skill-tag">On-call</span>
-          <span class="skill-tag">TDD</span>
+      <div class="tl-item">
+        <div class="tl-date">2015<br>Present</div>
+        <div class="tl-body">
+          <p class="tl-company">SmartTerm LMS <a href="https://smartterm.io" target="_blank" rel="noopener noreferrer" style="font-size:0.78rem; color:var(--accent); text-decoration:none; margin-left:0.5rem; font-weight:400;">smartterm.io ↗</a></p>
+          <p class="tl-role">Co-Founder</p>
+          <p class="tl-desc">A cohesive web and mobile learning management system connecting administration, teachers, students, and parents. Built real-time messaging and notifications using WebSockets. Stack: Node.js, Angular, React Native.</p>
         </div>
       </div>
 
