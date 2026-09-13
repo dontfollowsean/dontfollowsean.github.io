@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Sean Wilkinson's personal portfolio site — a single, self-contained `index.html`. There is no build system, no framework, no package manager, and no tests. Everything (markup, CSS, inline SVG icons) lives in `index.html`; edit it directly.
+Sean Wilkinson's personal portfolio site — static `index.html`, `styles.css`, plain files with no build system, no framework, no package manager, and no tests.
 
 ## Deployment
 
@@ -14,10 +14,11 @@ To preview locally, open `index.html` in a browser or serve the directory (e.g. 
 
 ## Structure & conventions
 
+- `index.html` holds only markup and inline SVG icons, plus a `<link rel="stylesheet" href="styles.css">`. All CSS lives in `styles.css`; there is no `script.js` since the site has no script logic — if you add real interactivity, create `script.js` and reference it with `<script src="script.js" defer></script>`.
 - The design system is a set of CSS custom properties in the `:root` block (dark theme: `--bg`, `--accent` purple `#9b6dff`, etc.). Reuse these variables rather than hardcoding colors.
 - Fonts (Inter, JetBrains Mono) load from Google Fonts via `<link>` — the only external dependency. Icons are inline SVG `<path>` elements, deliberately kept dependency-free.
 - Page sections: `#hero`, `#experience`, `#projects`, `#contact`, matched by the `nav-links`. Experience and Projects share the `.timeline` / `.tl-item` markup pattern — copy an existing `.tl-item` to add an entry.
-- Some links use inline `style=` and `onmouseover`/`onmouseout` hover handlers (e.g. the hero bio links) rather than CSS classes; match the surrounding pattern when editing those.
+- Hover states are defined as CSS rules in `styles.css` (e.g. `.hero-bio a:hover`), not inline `onmouseover`/`onmouseout` handlers.
 
 ## Content is real
 
